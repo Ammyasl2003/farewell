@@ -91,3 +91,18 @@ tbody{
     margin-left: 0;
     margin-top: 30px;
 }
+@media (max-width: 768px) {
+    .input-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .container {
+        margin: 10px;
+    }
+}
